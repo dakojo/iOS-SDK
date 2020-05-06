@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-compiler-version: Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserSDK
 import AdSupport
 import SystemConfiguration.CaptiveNetwork
@@ -21,13 +21,13 @@ public class UserSDK {
   public static var inAppAlertCloseButtonText: Swift.String
   public var apiKey: Swift.String {
     get
-    }
+  }
   public var baseURL: Swift.String {
     get
-    }
+  }
   public var shouldTrackActivities: Swift.Bool {
     get
-    }
+  }
   public var notificationDelegate: UserSDK.RemoteNotificationDelegate? {
     get
     set
@@ -151,37 +151,37 @@ extension UIViewController : UserSDK.TrackableView {
     get
   }
 }
-@objc open class TrackableViewController : UIKit.UIViewController {
+@objc @_inheritsConvenienceInitializers open class TrackableViewController : UIKit.UIViewController {
   @objc override dynamic open func viewDidLoad()
+  @objc deinit
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
-@objc open class TrackableTableViewController : UIKit.UITableViewController {
+@objc @_inheritsConvenienceInitializers open class TrackableTableViewController : UIKit.UITableViewController {
   @objc override dynamic open func viewDidLoad()
+  @objc deinit
   @objc override dynamic public init(style: UIKit.UITableView.Style)
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
-@objc open class TrackableCollectionViewController : UIKit.UICollectionViewController {
+@objc @_inheritsConvenienceInitializers open class TrackableCollectionViewController : UIKit.UICollectionViewController {
   @objc override dynamic open func viewDidLoad()
+  @objc deinit
   @objc override dynamic public init(collectionViewLayout layout: UIKit.UICollectionViewLayout)
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
-@objc open class TrackablePageViewController : UIKit.UIPageViewController {
+@objc @_inheritsConvenienceInitializers open class TrackablePageViewController : UIKit.UIPageViewController {
   @objc override dynamic open func viewDidLoad()
+  @objc deinit
   @objc override dynamic public init(transitionStyle style: UIKit.UIPageViewController.TransitionStyle, navigationOrientation: UIKit.UIPageViewController.NavigationOrientation, options: [UIKit.UIPageViewController.OptionsKey : Any]? = nil)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
-@objc open class TrackableSplitViewController : UIKit.UISplitViewController {
+@objc @_inheritsConvenienceInitializers open class TrackableSplitViewController : UIKit.UISplitViewController {
   @objc override dynamic open func viewDidLoad()
+  @objc deinit
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
 extension UserSDK.UserSDK.UserDataKey : Swift.Equatable {}
 extension UserSDK.UserSDK.UserDataKey : Swift.Hashable {}
