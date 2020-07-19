@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserSDK
 import AdSupport
 import SystemConfiguration.CaptiveNetwork
@@ -42,6 +42,32 @@ extension UserSDK {
   public func ping(_ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
   public func sendEvent(with name: Swift.String, params: [Swift.String : Any], _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
   public func trackScreen(with name: Swift.String, _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+}
+extension UserSDK {
+  public enum EventType : Swift.String {
+    case addToCart
+    case purchase
+    case liking
+    case addToObservation
+    case order
+    case reservation
+    case `return`
+    case view
+    case click
+    case detail
+    case add
+    case remove
+    case checkout
+    case checkoutOption
+    case refund
+    case promoClick
+    public typealias RawValue = Swift.String
+    public init?(rawValue: Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func sendProductEvent(_ productId: Swift.String, eventType: UserSDK.UserSDK.EventType, name: Swift.String? = nil, productURL: Swift.String? = nil, params: [Swift.String : Any]? = nil, _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
 }
 extension UserSDK {
   public enum UserDataKey : Swift.String {
@@ -183,6 +209,9 @@ extension UIViewController : UserSDK.TrackableView {
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
+extension UserSDK.UserSDK.EventType : Swift.Equatable {}
+extension UserSDK.UserSDK.EventType : Swift.Hashable {}
+extension UserSDK.UserSDK.EventType : Swift.RawRepresentable {}
 extension UserSDK.UserSDK.UserDataKey : Swift.Equatable {}
 extension UserSDK.UserSDK.UserDataKey : Swift.Hashable {}
 extension UserSDK.UserSDK.UserDataKey : Swift.RawRepresentable {}
