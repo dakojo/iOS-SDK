@@ -27,6 +27,12 @@ import UserSDK
 
 ## Changelog
 
+### 0.5.0
+Add Product Event feature
+
+### 0.4.2
+Small improvements
+
 ### 0.4.0
 
 Fixed bitcode support
