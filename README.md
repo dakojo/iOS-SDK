@@ -28,7 +28,7 @@ import UserSDK
 ## Changelog
 
 ### 0.5.0
-Add Product Event feature
+Added Product Event feature
 
 ### 0.4.2
 Small improvements
