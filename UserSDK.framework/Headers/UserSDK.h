@@ -15,5 +15,8 @@ FOUNDATION_EXPORT double UserSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char UserSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <UserSDK/PublicHeader.h>
-
-
+#import <UserSDK/TrackableViewController.h>
+#import <UserSDK/TrackableTableViewController.h>
+#import <UserSDK/TrackableCollectionViewController.h>
+#import <UserSDK/TrackablePageViewController.h>
+#import <UserSDK/TrackableSplitViewController.h>
