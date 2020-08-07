@@ -13,38 +13,55 @@ import SystemConfiguration
 import UIKit
 import UserNotifications
 @_exported import UserSDK
-public class UserSDK {
-  public static var `default`: UserSDK.UserSDK? {
-    get
-    set
+extension UserSDK {
+  @available(swift, obsoleted: 0.1)
+  @objc dynamic public func ping()
+  @available(swift, obsoleted: 0.1)
+  @objc dynamic public func sendEvent(name: Swift.String, params: [Swift.String : Any])
+  @available(swift, obsoleted: 0.1)
+  @objc dynamic public func trackScreen(name: Swift.String)
+  @available(swift, obsoleted: 0.1)
+  @objc dynamic public func setUserData(_ userData: [Swift.String : Swift.String], completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @available(swift, obsoleted: 0.1)
+  @objc dynamic public func setCustomUserData(_ customUserData: [Swift.String : Any], completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @available(swift, obsoleted: 0.1)
+  @objc dynamic public func setCustomUserData(_ customUserData: [Swift.String : Any])
+  @available(swift, obsoleted: 0.1)
+  @objc dynamic public func logout()
+}
+@objc public class UserSDK : ObjectiveC.NSObject {
+  @objc public static var `default`: UserSDK.UserSDK? {
+    @objc get
+    @objc set
   }
-  public static var inAppAlertCloseButtonText: Swift.String
-  public var apiKey: Swift.String {
+  @objc public static var inAppAlertCloseButtonText: Swift.String
+  @objc public var apiKey: Swift.String {
     get
   }
-  public var baseURL: Swift.String {
+  @objc public var baseURL: Swift.String {
     get
   }
-  public var shouldTrackActivities: Swift.Bool {
+  @objc public var shouldTrackActivities: Swift.Bool {
     get
   }
-  public var notificationDelegate: UserSDK.RemoteNotificationDelegate? {
-    get
-    set
+  @objc public var notificationDelegate: UserSDK.RemoteNotificationDelegate? {
+    @objc get
+    @objc set
   }
-  public var userId: Swift.String? {
-    get
+  @objc public var userId: Swift.String? {
+    @objc get
   }
-  public init(application: UIKit.UIApplication, apiKey: Swift.String, baseURL: Swift.String, shouldTrackActivities: Swift.Bool)
+  @objc public init(application: UIKit.UIApplication, apiKey: Swift.String, baseURL: Swift.String, shouldTrackActivities: Swift.Bool)
   @objc deinit
+  @objc override dynamic public init()
 }
 extension UserSDK {
-  public func ping(_ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
-  public func sendEvent(with name: Swift.String, params: [Swift.String : Any], _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
-  public func trackScreen(with name: Swift.String, _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc(pingWithCompletion:) dynamic public func ping(_ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc(sendEventWithName:params:completion:) dynamic public func sendEvent(with name: Swift.String, params: [Swift.String : Any], _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc(trackScreenWithName:completion:) dynamic public func trackScreen(with name: Swift.String, _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
 }
 extension UserSDK {
-  public enum EventType : Swift.String {
+  @objc public enum EventType : Swift.Int {
     case addToCart
     case purchase
     case liking
@@ -61,13 +78,13 @@ extension UserSDK {
     case checkoutOption
     case refund
     case promoClick
-    public typealias RawValue = Swift.String
-    public init?(rawValue: Swift.String)
-    public var rawValue: Swift.String {
+    public typealias RawValue = Swift.Int
+    public init?(rawValue: Swift.Int)
+    public var rawValue: Swift.Int {
       get
     }
   }
-  public func sendProductEvent(_ productId: Swift.String, eventType: UserSDK.UserSDK.EventType, name: Swift.String? = nil, productURL: Swift.String? = nil, params: [Swift.String : Any]? = nil, _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc(sendProductEventWithProductId:eventType:name:productURL:params:completion:) dynamic public func sendProductEvent(_ productId: Swift.String, eventType: UserSDK.UserSDK.EventType, name: Swift.String? = nil, productURL: Swift.String? = nil, params: [Swift.String : Any]? = nil, _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
 }
 extension UserSDK {
   public enum UserDataKey : Swift.String {
@@ -86,15 +103,15 @@ extension UserSDK {
   public func setCustomUserData(_ customUserData: [Swift.String : Any?], _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
 }
 extension UserSDK {
-  public func registerForRemoteNotifications(options: UserNotifications.UNAuthorizationOptions, notificationDelegate: UserSDK.RemoteNotificationDelegate? = nil)
-  public func handleNotification(userInfo: [Swift.AnyHashable : Any])
+  @objc(registerForRemoteNotificationsWithOptions:notificationDelegate:) dynamic public func registerForRemoteNotifications(options: UserNotifications.UNAuthorizationOptions, notificationDelegate: UserSDK.RemoteNotificationDelegate? = nil)
+  @objc(handleNotificationWithUserInfo:) dynamic public func handleNotification(userInfo: [Swift.AnyHashable : Any])
 }
 extension UserSDK {
-  public func logout(_ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc(logoutWithCompletion:) dynamic public func logout(_ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
 }
 extension UserSDK {
-  public var userDataDictionary: [Swift.String : Any] {
-    get
+  @objc dynamic public var userDataDictionary: [Swift.String : Any] {
+    @objc get
   }
 }
 public enum ReachabilityError : Swift.Error {
@@ -166,8 +183,8 @@ extension String {
     get
   }
 }
-public protocol RemoteNotificationDelegate {
-  func didReceiveRemoteNotification(with id: Swift.String, data: [Swift.AnyHashable : Any])
+@objc public protocol RemoteNotificationDelegate {
+  @objc func didReceiveRemoteNotification(with id: Swift.String, data: [Swift.AnyHashable : Any])
 }
 public protocol TrackableView {
   var screenName: Swift.String { get }
@@ -176,38 +193,7 @@ extension UIViewController : UserSDK.TrackableView {
   public var screenName: Swift.String {
     get
   }
-}
-@objc @_inheritsConvenienceInitializers open class TrackableViewController : UIKit.UIViewController {
-  @objc override dynamic open func viewDidLoad()
-  @objc deinit
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
-}
-@objc @_inheritsConvenienceInitializers open class TrackableTableViewController : UIKit.UITableViewController {
-  @objc override dynamic open func viewDidLoad()
-  @objc deinit
-  @objc override dynamic public init(style: UIKit.UITableView.Style)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
-}
-@objc @_inheritsConvenienceInitializers open class TrackableCollectionViewController : UIKit.UICollectionViewController {
-  @objc override dynamic open func viewDidLoad()
-  @objc deinit
-  @objc override dynamic public init(collectionViewLayout layout: UIKit.UICollectionViewLayout)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
-}
-@objc @_inheritsConvenienceInitializers open class TrackablePageViewController : UIKit.UIPageViewController {
-  @objc override dynamic open func viewDidLoad()
-  @objc deinit
-  @objc override dynamic public init(transitionStyle style: UIKit.UIPageViewController.TransitionStyle, navigationOrientation: UIKit.UIPageViewController.NavigationOrientation, options: [UIKit.UIPageViewController.OptionsKey : Any]? = nil)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
-}
-@objc @_inheritsConvenienceInitializers open class TrackableSplitViewController : UIKit.UISplitViewController {
-  @objc override dynamic open func viewDidLoad()
-  @objc deinit
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc dynamic public func trackScreen()
 }
 extension UserSDK.UserSDK.EventType : Swift.Equatable {}
 extension UserSDK.UserSDK.EventType : Swift.Hashable {}
