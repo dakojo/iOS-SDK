@@ -27,6 +27,9 @@ import UserSDK
 
 ## Changelog
 
+### 0.5.1
+Compatibility improvements with Objective-C
+
 ### 0.5.0
 Added Product Event feature
 
