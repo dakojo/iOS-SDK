@@ -27,6 +27,9 @@ import UserSDK
 
 ## Changelog
 
+### 0.5.2
+Full bitcode support
+
 ### 0.5.1
 Compatibility improvements with Objective-C
 
