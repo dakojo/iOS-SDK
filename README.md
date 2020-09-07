@@ -27,6 +27,12 @@ import UserSDK
 
 ## Changelog
 
+### 0.5.4
+Logout method removes user's FCM token
+
+### 0.5.3
+Screen events tracking are sent correctly now
+
 ### 0.5.2
 Full bitcode support
 
