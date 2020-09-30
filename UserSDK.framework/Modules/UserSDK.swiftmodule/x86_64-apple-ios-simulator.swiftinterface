@@ -8,6 +8,7 @@ import FirebaseCore
 import FirebaseInstanceID
 import FirebaseMessaging
 import Foundation
+import Starscream
 import Swift
 import SystemConfiguration
 import UIKit
@@ -85,6 +86,10 @@ extension UserSDK {
     }
   }
   @objc(sendProductEventWithProductId:eventType:name:productURL:params:completion:) dynamic public func sendProductEvent(_ productId: Swift.String, eventType: UserSDK.UserSDK.EventType, name: Swift.String? = nil, productURL: Swift.String? = nil, params: [Swift.String : Any]? = nil, _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+}
+extension UserSDK {
+  @objc(showPreloadContentWithName:completion:) dynamic public func showPreloadContent(_ name: Swift.String, _ completion: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
+  @objc(fetchPreloadContentWithName:completion:) dynamic public func fetchPreloadContent(_ name: Swift.String, _ completion: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
 }
 extension UserSDK {
   public enum UserDataKey : Swift.String {
