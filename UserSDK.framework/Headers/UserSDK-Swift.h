@@ -272,6 +272,17 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull inAp
 - (void)logoutWithCompletion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
 @end
 
+
+@interface UserSDK (SWIFT_EXTENSION(UserSDK))
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull userDataDictionary;
+@end
+
+
+@interface UserSDK (SWIFT_EXTENSION(UserSDK))
+- (void)showPreloadContentWithName:(NSString * _Nonnull)name completion:(void (^ _Nonnull)(NSString * _Nullable, NSError * _Nullable))completion;
+- (void)fetchPreloadContentWithName:(NSString * _Nonnull)name completion:(void (^ _Nonnull)(NSString * _Nullable, NSError * _Nullable))completion;
+@end
+
 enum EventType : NSInteger;
 
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
@@ -305,11 +316,6 @@ typedef SWIFT_ENUM(NSInteger, EventType, open) {
 };
 
 
-@interface UserSDK (SWIFT_EXTENSION(UserSDK))
-@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull userDataDictionary;
-@end
-
-
 
 
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
@@ -332,6 +338,8 @@ typedef SWIFT_ENUM(NSInteger, EventType, open) {
 - (void)registerForRemoteNotificationsWithOptions:(UNAuthorizationOptions)options notificationDelegate:(id <RemoteNotificationDelegate> _Nullable)notificationDelegate;
 - (void)handleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
 @end
+
+
 
 
 
