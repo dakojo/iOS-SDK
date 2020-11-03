@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserSDK
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserSDK
 import AdSupport
 import SystemConfiguration.CaptiveNetwork
 import CoreTelephony
@@ -139,7 +139,7 @@ public class Reachability {
     public var description: Swift.String {
       get
     }
-    public static func == (a: Reachability.NetworkStatus, b: Reachability.NetworkStatus) -> Swift.Bool
+    public static func == (a: Reachability.NetworkStatus, b: UserSDK.Reachability.NetworkStatus) -> Swift.Bool
     public var hashValue: Swift.Int {
       get
     }
@@ -150,7 +150,7 @@ public class Reachability {
     public var description: Swift.String {
       get
     }
-    public static func == (a: Reachability.Connection, b: Reachability.Connection) -> Swift.Bool
+    public static func == (a: Reachability.Connection, b: UserSDK.Reachability.Connection) -> Swift.Bool
     public var hashValue: Swift.Int {
       get
     }
