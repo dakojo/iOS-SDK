@@ -27,6 +27,12 @@ import UserSDK
 
 ## Changelog
 
+### 0.6.1
+Xcode 12 compatibility. Fixed compiler warnings
+
+### 0.6.0
+Introduced Preload Content
+
 ### 0.5.4
 Logout method removes user's FCM token
 
