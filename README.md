@@ -36,6 +36,9 @@ import UserSDK
 
 ## Changelog
 
+### 0.6.3
+Fixed mobile notifications and in-app notifications sending
+
 ### 0.6.2
 Xcode 12.5 and Apple silicon compatibility
 The newest Firebase library support
