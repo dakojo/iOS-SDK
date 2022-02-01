@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserSDK
 import AdSupport
 import SystemConfiguration.CaptiveNetwork
@@ -14,6 +14,7 @@ import SystemConfiguration
 import UIKit
 import UserNotifications
 @_exported import UserSDK
+import _Concurrency
 extension UserSDK {
   @available(swift, obsoleted: 0.1)
   @objc dynamic public func ping()
@@ -53,7 +54,6 @@ extension UserSDK {
     @objc get
   }
   @objc public init(application: UIKit.UIApplication, apiKey: Swift.String, baseURL: Swift.String, shouldTrackActivities: Swift.Bool)
-  @objc override dynamic public init()
   @objc deinit
 }
 extension UserSDK {
@@ -128,7 +128,7 @@ public enum ReachabilityError : Swift.Error {
 }
 @available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
 public let ReachabilityChangedNotification: Foundation.NSNotification.Name
-extension NSNotification.Name {
+extension Foundation.NSNotification.Name {
   public static let reachabilityChanged: Foundation.Notification.Name
 }
 public class Reachability {
@@ -168,7 +168,7 @@ extension Reachability {
     get
   }
 }
-extension String {
+extension Swift.String {
   public var boolValue: Swift.Bool {
     get
   }
@@ -182,11 +182,11 @@ extension String {
 public protocol TrackableView {
   var screenName: Swift.String { get }
 }
-extension UIViewController : TrackableView {
-  public var screenName: Swift.String {
+extension UIKit.UIViewController : TrackableView {
+  @_Concurrency.MainActor(unsafe) public var screenName: Swift.String {
     get
   }
-  @objc dynamic public func trackScreen()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func trackScreen()
 }
 extension EventType : Swift.Equatable {}
 extension EventType : Swift.Hashable {}
