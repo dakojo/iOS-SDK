@@ -36,6 +36,9 @@ import UserSDK
 
 ## Changelog
 
+### 0.6.5
+Added support for Apple Swift version 5.6.1 compiler
+
 ### 0.6.4
 Multiple anonymous users won't be created after using the logout method
 
