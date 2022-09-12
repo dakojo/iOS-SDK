@@ -36,6 +36,9 @@ import UserSDK
 
 ## Changelog
 
+### 0.6.6
+Fixed mobile notifications and in-app notifications sound
+
 ### 0.6.5
 Added support for Apple Swift version 5.6.1 compiler
 
