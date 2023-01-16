@@ -6,6 +6,6 @@ framework module UserSDK {
 }
 
 module UserSDK.Swift {
-    header "UserSDK-Swift.h"
-    requires objc
+  header "UserSDK-Swift.h"
+  requires objc
 }
