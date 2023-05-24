@@ -1,7 +1,7 @@
 # local testing podspec
 
 Pod::Spec.new do |spec|
-    version                     = '0.6.7'
+    version                     = '0.6.8'
     swift_version               = '5.6.1'
 
     spec.name                   = "UserSDK"

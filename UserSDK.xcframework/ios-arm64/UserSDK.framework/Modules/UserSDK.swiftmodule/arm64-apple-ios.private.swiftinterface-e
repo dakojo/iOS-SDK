@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
@@ -25,9 +25,9 @@ extension UserSDK {
   @available(swift, obsoleted: 0.1)
   @objc dynamic public func trackScreen(name: Swift.String)
   @available(swift, obsoleted: 0.1)
-  @objc dynamic public func setUserData(_ userData: [Swift.String : Swift.String], completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc dynamic public func setUserData(_ userData: [Swift.String : Swift.String], completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
   @available(swift, obsoleted: 0.1)
-  @objc dynamic public func setCustomUserData(_ customUserData: [Swift.String : Any], completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc dynamic public func setCustomUserData(_ customUserData: [Swift.String : Any], completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
   @available(swift, obsoleted: 0.1)
   @objc dynamic public func setCustomUserData(_ customUserData: [Swift.String : Any])
   @available(swift, obsoleted: 0.1)
@@ -48,7 +48,7 @@ extension UserSDK {
   @objc public var shouldTrackActivities: Swift.Bool {
     get
   }
-  @objc public var notificationDelegate: RemoteNotificationDelegate? {
+  @objc public var notificationDelegate: (any RemoteNotificationDelegate)? {
     @objc get
     @objc set
   }
@@ -59,9 +59,9 @@ extension UserSDK {
   @objc deinit
 }
 extension UserSDK {
-  @objc(pingWithCompletion:) dynamic public func ping(_ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
-  @objc(sendEventWithName:params:completion:) dynamic public func sendEvent(with name: Swift.String, params: [Swift.String : Any], _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
-  @objc(trackScreenWithName:completion:) dynamic public func trackScreen(with name: Swift.String, _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc(pingWithCompletion:) dynamic public func ping(_ completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @objc(sendEventWithName:params:completion:) dynamic public func sendEvent(with name: Swift.String, params: [Swift.String : Any], _ completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @objc(trackScreenWithName:completion:) dynamic public func trackScreen(with name: Swift.String, _ completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
 }
 extension UserSDK {
   @objc public enum EventType : Swift.Int {
@@ -87,11 +87,11 @@ extension UserSDK {
       get
     }
   }
-  @objc(sendProductEventWithProductId:eventType:name:productURL:params:completion:) dynamic public func sendProductEvent(_ productId: Swift.String, eventType: EventType, name: Swift.String? = nil, productURL: Swift.String? = nil, params: [Swift.String : Any]? = nil, _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc(sendProductEventWithProductId:eventType:name:productURL:params:completion:) dynamic public func sendProductEvent(_ productId: Swift.String, eventType: EventType, name: Swift.String? = nil, productURL: Swift.String? = nil, params: [Swift.String : Any]? = nil, _ completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
 }
 extension UserSDK {
-  @objc(showPreloadContentWithName:completion:) dynamic public func showPreloadContent(_ name: Swift.String, _ completion: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
-  @objc(fetchPreloadContentWithName:completion:) dynamic public func fetchPreloadContent(_ name: Swift.String, _ completion: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
+  @objc(showPreloadContentWithName:completion:) dynamic public func showPreloadContent(_ name: Swift.String, _ completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
+  @objc(fetchPreloadContentWithName:completion:) dynamic public func fetchPreloadContent(_ name: Swift.String, _ completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
 }
 extension UserSDK {
   public enum UserDataKey : Swift.String {
@@ -106,15 +106,15 @@ extension UserSDK {
       get
     }
   }
-  public func setUserData(_ userData: [UserDataKey : Swift.String?], _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
-  public func setCustomUserData(_ customUserData: [Swift.String : Any?], _ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  public func setUserData(_ userData: [UserDataKey : Swift.String?], _ completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
+  public func setCustomUserData(_ customUserData: [Swift.String : Any?], _ completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
 }
 extension UserSDK {
-  @objc(registerForRemoteNotificationsWithOptions:notificationDelegate:) dynamic public func registerForRemoteNotifications(options: UserNotifications.UNAuthorizationOptions, notificationDelegate: RemoteNotificationDelegate? = nil)
+  @objc(registerForRemoteNotificationsWithOptions:notificationDelegate:) dynamic public func registerForRemoteNotifications(options: UserNotifications.UNAuthorizationOptions, notificationDelegate: (any RemoteNotificationDelegate)? = nil)
   @objc(handleNotificationWithUserInfo:) dynamic public func handleNotification(userInfo: [Swift.AnyHashable : Any])
 }
 extension UserSDK {
-  @objc(logoutWithCompletion:) dynamic public func logout(_ completion: ((Swift.Bool, Swift.Error?) -> Swift.Void)? = nil)
+  @objc(logoutWithCompletion:) dynamic public func logout(_ completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
 }
 extension UserSDK {
   @objc dynamic public var userDataDictionary: [Swift.String : Any] {
