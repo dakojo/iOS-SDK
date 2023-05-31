@@ -36,6 +36,12 @@ import UserSDK
 
 ## Changelog
 
+### 0.6.8
+Fixed automatic FCM token update
+
+### 0.6.7
+Added token refresh to register method
+
 ### 0.6.6
 Fixed mobile notifications and in-app notifications sound
 
