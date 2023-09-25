@@ -1,8 +1,8 @@
 # local testing podspec
 
 Pod::Spec.new do |spec|
-    version                     = '0.6.8'
-    swift_version               = '5.6.1'
+    version                     = '0.6.9'
+    swift_version               = '5.8.1'
 
     spec.name                   = "UserSDK"
     spec.version                = "#{version}"
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
     spec.license                = { :type => "MIT", :file => "LICENSE" }
     spec.authors                = { "User" => "http://user.com" }
     
-    spec.platform               = :ios, "11.0"
+    spec.platform               = :ios, "13.0"
     spec.swift_version          = "#{swift_version}"
 
     spec.module_name            = "UserSDK"
@@ -22,7 +22,6 @@ Pod::Spec.new do |spec|
     
     spec.dependency 'FirebaseCore'
     spec.dependency 'FirebaseMessaging'
-    spec.dependency 'Starscream'
 
     spec.user_target_xcconfig   = { "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES" => "YES" }
 end
