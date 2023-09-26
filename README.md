@@ -36,6 +36,10 @@ import UserSDK
 
 ## Changelog
 
+### 0.6.9
+Deleted preload content
+Increases the minimum version of the supported system from iOS 11 to iOS 13
+
 ### 0.6.8
 Fixed automatic FCM token update
 
