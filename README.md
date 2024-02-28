@@ -50,6 +50,9 @@ Where FontResolver is a type conforming to FontResoving. As always keep in mind 
 
 ## Changelog
 
+### 0.7.0
+New In-app messages
+
 ### 0.6.9
 Deleted preload content
 
