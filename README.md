@@ -34,6 +34,20 @@ Import the module:
 import UserSDK
 ```
 
+## In-app messages custom fonts
+
+If you want to support custom fonts in new in-apps sent from user.com you have to create a type conforming to protocol FontResolving. 
+```
+protocol FontResolving {
+	func resolvingFontFor(name: String, size: CGFloat) -> UIFont?
+}
+```
+When ready assign instance of the type to fontResolver property on UserSDK just like below:
+```
+UserSDK.default?.fontResolver = FontResolver()
+```
+Where FontResolver is a type conforming to FontResoving. As always keep in mind to initialize the UserSDK before assignment of the fontResolver.
+
 ## Changelog
 
 ### 0.6.9
