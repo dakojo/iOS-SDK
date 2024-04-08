@@ -752,12 +752,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UserSDK.RemoteNotificationDelegate?",
+                "printedName": "(any UserSDK.RemoteNotificationDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "RemoteNotificationDelegate",
-                    "printedName": "UserSDK.RemoteNotificationDelegate",
+                    "printedName": "any UserSDK.RemoteNotificationDelegate",
                     "usr": "c:@M@UserSDK@objc(pl)RemoteNotificationDelegate"
                   }
                 ],
@@ -782,12 +782,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UserSDK.RemoteNotificationDelegate?",
+                    "printedName": "(any UserSDK.RemoteNotificationDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "RemoteNotificationDelegate",
-                        "printedName": "UserSDK.RemoteNotificationDelegate",
+                        "printedName": "any UserSDK.RemoteNotificationDelegate",
                         "usr": "c:@M@UserSDK@objc(pl)RemoteNotificationDelegate"
                       }
                     ],
@@ -816,12 +816,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UserSDK.RemoteNotificationDelegate?",
+                    "printedName": "(any UserSDK.RemoteNotificationDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "RemoteNotificationDelegate",
-                        "printedName": "UserSDK.RemoteNotificationDelegate",
+                        "printedName": "any UserSDK.RemoteNotificationDelegate",
                         "usr": "c:@M@UserSDK@objc(pl)RemoteNotificationDelegate"
                       }
                     ],
@@ -926,12 +926,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UserSDK.FontResolving?",
+                "printedName": "(any UserSDK.FontResolving)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "FontResolving",
-                    "printedName": "UserSDK.FontResolving",
+                    "printedName": "any UserSDK.FontResolving",
                     "usr": "c:@M@UserSDK@objc(pl)FontResolving"
                   }
                 ],
@@ -959,12 +959,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UserSDK.FontResolving?",
+                    "printedName": "(any UserSDK.FontResolving)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FontResolving",
-                        "printedName": "UserSDK.FontResolving",
+                        "printedName": "any UserSDK.FontResolving",
                         "usr": "c:@M@UserSDK@objc(pl)FontResolving"
                       }
                     ],
@@ -994,12 +994,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UserSDK.FontResolving?",
+                    "printedName": "(any UserSDK.FontResolving)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FontResolving",
-                        "printedName": "UserSDK.FontResolving",
+                        "printedName": "any UserSDK.FontResolving",
                         "usr": "c:@M@UserSDK@objc(pl)FontResolving"
                       }
                     ],
@@ -1123,12 +1123,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1138,7 +1138,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1149,12 +1149,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -1221,12 +1221,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1236,7 +1236,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1247,12 +1247,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -1300,12 +1300,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1315,7 +1315,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1326,12 +1326,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -2226,12 +2226,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2241,7 +2241,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -2252,12 +2252,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -2638,12 +2638,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2653,7 +2653,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -2664,12 +2664,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -2735,12 +2735,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2750,7 +2750,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -2761,12 +2761,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -2811,12 +2811,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UserSDK.RemoteNotificationDelegate?",
+                "printedName": "(any UserSDK.RemoteNotificationDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "RemoteNotificationDelegate",
-                    "printedName": "UserSDK.RemoteNotificationDelegate",
+                    "printedName": "any UserSDK.RemoteNotificationDelegate",
                     "usr": "c:@M@UserSDK@objc(pl)RemoteNotificationDelegate"
                   }
                 ],
@@ -2893,12 +2893,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2908,7 +2908,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -2919,12 +2919,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -4786,6 +4786,7 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -5625,181 +5626,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "Dictionary",
-      "offset": 815,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 877,
-      "length": 9,
-      "value": "\"userKey\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 954,
-      "length": 7,
-      "value": "\"email\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1035,
-      "length": 12,
-      "value": "\"first_name\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1119,
-      "length": 11,
-      "value": "\"last_name\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1199,
-      "length": 7,
-      "value": "\"phone\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1282,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1496,
-      "length": 13,
-      "value": "\"app_version\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1542,
-      "length": 9,
-      "value": "\"os_type\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1573,
-      "length": 12,
-      "value": "\"os_version\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1610,
-      "length": 14,
-      "value": "\"manufacturer\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1652,
-      "length": 7,
-      "value": "\"model\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1680,
-      "length": 6,
-      "value": "\"wifi\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1760,
-      "length": 15,
-      "value": "\"screen_height\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1803,
-      "length": 14,
-      "value": "\"screen_width\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1844,
-      "length": 10,
-      "value": "\"ios_idfa\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 1951,
-      "length": 9,
-      "value": "\"fcm_key\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 2042,
-      "length": 13,
-      "value": "\"app_version\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 2141,
-      "length": 13,
-      "value": "\"lib_version\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 2269,
-      "length": 7,
-      "value": "\"radio\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 2381,
-      "length": 9,
-      "value": "\"carrier\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 2442,
-      "length": 10,
-      "value": "\"customer\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 2476,
-      "length": 8,
-      "value": "\"device\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 2774,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserData.swift",
-      "kind": "StringLiteral",
-      "offset": 2863,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
       "kind": "Dictionary",
       "offset": 742,
@@ -5821,300 +5647,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1291,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1320,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1338,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1418,
-      "length": 12,
-      "value": "\"user-agent\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1434,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1539,
-      "length": 5,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1598,
-      "length": 8,
-      "value": "\"method\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1664,
-      "length": 12,
-      "value": "\"httpMethod\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1733,
-      "length": 11,
-      "value": "\"timestamp\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1799,
-      "length": 9,
-      "value": "\"headers\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1877,
-      "length": 13,
-      "value": "\"queryParams\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 1958,
-      "length": 12,
-      "value": "\"bodyParams\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 2549,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 2568,
-      "length": 16,
-      "value": "\"Token \""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 2583,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 2763,
-      "length": 12,
-      "value": "\"X-User-Key\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 2867,
-      "length": 11,
-      "value": "\"timestamp\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3236,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4365,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "Array",
-      "offset": 4467,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4569,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 4797,
-      "length": 5,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 4837,
-      "length": 8,
-      "value": "\"method\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 4867,
-      "length": 12,
-      "value": "\"httpMethod\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 4914,
-      "length": 11,
-      "value": "\"timestamp\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 4958,
-      "length": 9,
-      "value": "\"headers\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 4990,
-      "length": 13,
-      "value": "\"queryParams\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/APIMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 5030,
-      "length": 12,
-      "value": "\"bodyParams\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "Array",
-      "offset": 1035,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1648,
-      "length": 6,
-      "value": "\"GPRS\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1716,
-      "length": 6,
-      "value": "\"EDGE\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1785,
-      "length": 4,
-      "value": "\"3G\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1852,
-      "length": 7,
-      "value": "\"HSDPA\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1922,
-      "length": 7,
-      "value": "\"HSUPA\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1993,
-      "length": 8,
-      "value": "\"CDMA1x\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2071,
-      "length": 14,
-      "value": "\"CDMAEVDORev0\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2155,
-      "length": 14,
-      "value": "\"CDMAEVDORevA\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2239,
-      "length": 14,
-      "value": "\"CDMAEVDORevB\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2316,
-      "length": 7,
-      "value": "\"eHRPD\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2384,
-      "length": 5,
-      "value": "\"LTE\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2455,
-      "length": 6,
-      "value": "\"WiFi\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NetworkManager.swift",
-      "kind": "Array",
-      "offset": 2798,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ButtonModel.swift",
       "kind": "StringLiteral",
       "offset": 452,
@@ -6141,146 +5673,6 @@
       "offset": 497,
       "length": 12,
       "value": "\"top_margin\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/DocumentsAddressProviding.swift",
-      "kind": "BooleanLiteral",
-      "offset": 465,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/DocumentsAddressProviding.swift",
-      "kind": "StringLiteral",
-      "offset": 599,
-      "length": 15,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/DocumentsAddressProviding.swift",
-      "kind": "StringLiteral",
-      "offset": 608,
-      "length": 1,
-      "value": "\".data\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/DocumentsAddressProviding.swift",
-      "kind": "BooleanLiteral",
-      "offset": 680,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 680,
-      "length": 11,
-      "value": "\"custom_id\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 771,
-      "length": 13,
-      "value": "\"custom_data\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 851,
-      "length": 13,
-      "value": "\"product_url\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 915,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 948,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 957,
-      "length": 9,
-      "value": "\"product\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 968,
-      "length": 12,
-      "value": "\"event_type\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 993,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 2294,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewFactory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2797,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewFactory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2838,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewFactory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3141,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewFactory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3310,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewFactory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4571,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 6672,
-      "length": 6,
-      "value": "\".gif\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewFactory.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6683,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
@@ -6297,349 +5689,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "Array",
-      "offset": 1411,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2408,
-      "length": 22,
-      "value": "\"--------------------\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2450,
-      "length": 22,
-      "value": "\"keyPath = \""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2471,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2492,
-      "length": 38,
-      "value": "\"object  = \""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2515,
-      "length": 13,
-      "value": "\"unavailable\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2529,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2550,
-      "length": 21,
-      "value": "\"change  = \""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2570,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2744,
-      "length": 27,
-      "value": "\"track = \""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ScreenTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 2770,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 404,
-      "length": 19,
-      "value": "\"\/api\/sdk\/v1\/ping\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 716,
-      "length": 20,
-      "value": "\"\/api\/sdk\/v1\/event\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 770,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 785,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 1248,
-      "length": 28,
-      "value": "\"\/api\/sdk\/v1\/product_event\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 1541,
-      "length": 27,
-      "value": "\"\/api\/sdk\/v1\/screen_event\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 1602,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 1611,
-      "length": 13,
-      "value": "\"ScreenEvent\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 1626,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 1635,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 1651,
-      "length": 13,
-      "value": "\"screen_name\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 1912,
-      "length": 58,
-      "value": "\"\/api\/sdk\/v1\/push-notification\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 1960,
-      "length": 1,
-      "value": "\"\/clicked\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2004,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2047,
-      "length": 31,
-      "value": "\"push_notification_delivery_id\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2097,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2106,
-      "length": 19,
-      "value": "\"NotificationEvent\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2401,
-      "length": 55,
-      "value": "\"\/api\/sdk\/v1\/in-app-message\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2446,
-      "length": 1,
-      "value": "\"\/clicked\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2490,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2533,
-      "length": 31,
-      "value": "\"push_notification_delivery_id\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2582,
-      "length": 5,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2601,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2610,
-      "length": 19,
-      "value": "\"NotificationEvent\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2887,
-      "length": 57,
-      "value": "\"\/api\/sdk\/v1\/in-app-message\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2932,
-      "length": 1,
-      "value": "\"\/displayed\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 2978,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3023,
-      "length": 31,
-      "value": "\"push_notification_delivery_id\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3073,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3082,
-      "length": 19,
-      "value": "\"NotificationEvent\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3361,
-      "length": 57,
-      "value": "\"\/api\/sdk\/v1\/in-app-message\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3406,
-      "length": 1,
-      "value": "\"\/dismissed\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3452,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3497,
-      "length": 31,
-      "value": "\"push_notification_delivery_id\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3547,
-      "length": 7,
-      "value": "\"event\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3556,
-      "length": 19,
-      "value": "\"NotificationEvent\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3733,
-      "length": 31,
-      "value": "\"\/api\/sdk\/v1\/delete-fcm-token\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ApiMethod+Methods.swift",
-      "kind": "StringLiteral",
-      "offset": 3800,
-      "length": 9,
-      "value": "\"fcm_key\""
-    },
-    {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/ItemType.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
@@ -6701,13 +5750,6 @@
       "offset": 244,
       "length": 5,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Bundle.swift",
-      "kind": "StringLiteral",
-      "offset": 248,
-      "length": 14,
-      "value": "\"com.user.sdk\""
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppMessage.swift",
@@ -6722,13 +5764,6 @@
       "offset": 473,
       "length": 13,
       "value": "\"exit_button\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/LinkButton.swift",
-      "kind": "StringLiteral",
-      "offset": 378,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/LinkButton.swift",
@@ -6736,13 +5771,6 @@
       "offset": 178,
       "length": 10,
       "value": "\"UserSDK.LinkButton\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIFont.swift",
-      "kind": "IntegerLiteral",
-      "offset": 621,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/HTTPMethod.swift",
@@ -7109,20 +6137,6 @@
       "value": "\"UserSDK\""
     },
     {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Keychain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1494,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Keychain.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2793,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
       "kind": "StringLiteral",
       "offset": 1554,
@@ -7138,24 +6152,108 @@
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4917,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 5818,
+      "length": 8,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5436,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 5840,
+      "length": 6,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 5579,
-      "length": 9,
-      "value": "\"started\""
+      "kind": "IntegerLiteral",
+      "offset": 5860,
+      "length": 16,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5890,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5909,
+      "length": 11,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5934,
+      "length": 8,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5956,
+      "length": 4,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5974,
+      "length": 5,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5993,
+      "length": 6,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6013,
+      "length": 3,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6030,
+      "length": 6,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6050,
+      "length": 8,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6072,
+      "length": 14,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6100,
+      "length": 6,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6120,
+      "length": 10,
+      "value": "15"
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
@@ -7265,237 +6363,6 @@
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
       "kind": "StringLiteral",
-      "offset": 6229,
-      "length": 13,
-      "value": "\"add to cart\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6278,
-      "length": 10,
-      "value": "\"purchase\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6322,
-      "length": 8,
-      "value": "\"liking\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6374,
-      "length": 20,
-      "value": "\"add to observation\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6427,
-      "length": 7,
-      "value": "\"order\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6473,
-      "length": 13,
-      "value": "\"reservation\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6522,
-      "length": 8,
-      "value": "\"return\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6562,
-      "length": 6,
-      "value": "\"view\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6601,
-      "length": 7,
-      "value": "\"click\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6642,
-      "length": 8,
-      "value": "\"detail\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6681,
-      "length": 5,
-      "value": "\"add\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6720,
-      "length": 8,
-      "value": "\"remove\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6764,
-      "length": 10,
-      "value": "\"checkout\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6816,
-      "length": 17,
-      "value": "\"checkout option\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6867,
-      "length": 8,
-      "value": "\"refund\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 6913,
-      "length": 13,
-      "value": "\"promo click\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5818,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5840,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5860,
-      "length": 16,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5890,
-      "length": 5,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5909,
-      "length": 11,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5934,
-      "length": 8,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5956,
-      "length": 4,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5974,
-      "length": 5,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5993,
-      "length": 6,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6013,
-      "length": 3,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6030,
-      "length": 6,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6050,
-      "length": 8,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6072,
-      "length": 14,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6100,
-      "length": 6,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6120,
-      "length": 10,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7482,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "Dictionary",
-      "offset": 7714,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "StringLiteral",
       "offset": 7937,
       "length": 12,
       "value": "\"first_name\""
@@ -7562,13 +6429,6 @@
       "offset": 8066,
       "length": 9,
       "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13461,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
@@ -7586,48 +6446,6 @@
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 2321,
-      "length": 10,
-      "value": "\"Cellular\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 2375,
-      "length": 6,
-      "value": "\"WiFi\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 2421,
-      "length": 15,
-      "value": "\"No Connection\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 2658,
-      "length": 10,
-      "value": "\"Cellular\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 2700,
-      "length": 6,
-      "value": "\"WiFi\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 2738,
-      "length": 15,
-      "value": "\"No Connection\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 3785,
       "length": 5,
@@ -7641,433 +6459,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4369,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 4481,
-      "length": 32,
-      "value": "\"uk.co.ashleymills.reachability\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5857,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6493,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6565,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 6793,
-      "length": 19,
-      "value": "\"unavailable flags\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 6876,
-      "length": 3,
-      "value": "\"W\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 6882,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 6889,
-      "length": 3,
-      "value": "\"X\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 6936,
-      "length": 3,
-      "value": "\"R\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 6942,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 6998,
-      "length": 3,
-      "value": "\"c\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7004,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7061,
-      "length": 3,
-      "value": "\"t\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7067,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7125,
-      "length": 3,
-      "value": "\"i\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7131,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7188,
-      "length": 3,
-      "value": "\"C\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7194,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7250,
-      "length": 3,
-      "value": "\"D\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7256,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7306,
-      "length": 3,
-      "value": "\"l\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7312,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7356,
-      "length": 3,
-      "value": "\"d\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7362,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7382,
-      "length": 39,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7387,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7391,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7396,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7400,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7404,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7408,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7412,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7416,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/Reachability.swift",
-      "kind": "StringLiteral",
-      "offset": 7420,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 468,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 515,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 528,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 533,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 545,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 549,
-      "length": 3,
-      "value": "0xF"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 556,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 567,
-      "length": 3,
-      "value": "0xF"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 574,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 591,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 638,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 650,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 661,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 665,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 677,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 696,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 751,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 762,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 767,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 780,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 784,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 796,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 907,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 932,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 956,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIColor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 981,
-      "length": 3,
-      "value": "255"
-    },
-    {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/FormatType.swift",
       "kind": "IntegerLiteral",
       "offset": 229,
@@ -8152,27 +6543,6 @@
       "value": "4"
     },
     {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 410,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 502,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UIDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 743,
-      "length": 7,
-      "value": "\"apple\""
-    },
-    {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppType.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
@@ -8255,34 +6625,6 @@
       "offset": 261,
       "length": 4,
       "value": "4"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/URL.swift",
-      "kind": "StringLiteral",
-      "offset": 296,
-      "length": 10,
-      "value": "\"https:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/URL.swift",
-      "kind": "StringLiteral",
-      "offset": 332,
-      "length": 9,
-      "value": "\"http:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/URL.swift",
-      "kind": "StringLiteral",
-      "offset": 445,
-      "length": 22,
-      "value": "\"https:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/URL.swift",
-      "kind": "StringLiteral",
-      "offset": 466,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
@@ -8293,76 +6635,6 @@
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 836,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1244,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1428,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3733,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3774,
-      "length": 23,
-      "value": "\"user_com_notification\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3842,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4580,
-      "length": 23,
-      "value": "\"user_com_notification\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4619,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4691,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4754,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
       "kind": "IntegerLiteral",
       "offset": 5430,
       "length": 1,
@@ -8444,20 +6716,6 @@
       "offset": 5497,
       "length": 1,
       "value": "4"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5853,
-      "length": 15,
-      "value": "\"inapp_message\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/NotificationManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6449,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
@@ -8524,234 +6782,10 @@
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1870,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2520,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2728,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4116,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4325,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4422,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 4472,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4523,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4993,
-      "length": 5,
-      "value": "\"gif\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6043,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6143,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 6824,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8757,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9641,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10750,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11327,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11580,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11789,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "Dictionary",
-      "offset": 12559,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12715,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12749,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13024,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14723,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15045,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15509,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 15629,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 15958,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16002,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
       "kind": "FloatLiteral",
       "offset": 16228,
       "length": 3,
       "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16282,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16457,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16586,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/InAppViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16733,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/AligningContainerView.swift",
@@ -8761,116 +6795,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/AligningContainerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 488,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
       "kind": "Array",
       "offset": 352,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "BooleanLiteral",
-      "offset": 535,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "IntegerLiteral",
-      "offset": 851,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1122,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1276,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1594,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1924,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "Array",
-      "offset": 2997,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "Array",
-      "offset": 3168,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "Array",
-      "offset": 3308,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "Array",
-      "offset": 3380,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/EventQueue.swift",
-      "kind": "StringLiteral",
-      "offset": 3816,
-      "length": 7,
-      "value": "\"queue\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserDataParser.swift",
-      "kind": "Array",
-      "offset": 512,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserDataParser.swift",
-      "kind": "StringLiteral",
-      "offset": 656,
-      "length": 6,
-      "value": "\"user\""
-    },
-    {
-      "filePath": "\/Users\/damian.klobukowski\/Documents\/Dev\/user-ios\/UserSDK\/UserSDK\/UserDataParser.swift",
-      "kind": "StringLiteral",
-      "offset": 790,
-      "length": 5,
-      "value": "\"key\""
     }
   ]
 }
