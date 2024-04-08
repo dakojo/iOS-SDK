@@ -50,13 +50,12 @@ Where FontResolver is a type conforming to FontResoving. As always keep in mind 
 
 ## Changelog
 
-### 0.7.1
+### 0.7.0
 Bump compiler version
 
-### 0.7.0
+### 0.6.9
 New In-app messages
 
-### 0.6.9
 Deleted preload content
 
 Increases the minimum version of the supported system from iOS 11 to iOS 13
