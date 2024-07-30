@@ -311,7 +311,18 @@ SWIFT_PROTOCOL("_TtP7UserSDK13FontResolving_")
 - (UIFont * _Nullable)resolveFontForName:(NSString * _Nonnull)name size:(CGFloat)size SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class NSObject;
+@class UNMutableNotificationContent;
+@class UNNotificationContent;
+
+SWIFT_CLASS("_TtC7UserSDK27NotificationExtensionHelper")
+@interface NotificationExtensionHelper : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NotificationExtensionHelper * _Nonnull shared;)
++ (NotificationExtensionHelper * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (void)fillNotificationContent:(UNMutableNotificationContent * _Nullable)content contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_PROTOCOL("_TtP7UserSDK26RemoteNotificationDelegate_")
 @protocol RemoteNotificationDelegate
@@ -324,13 +335,14 @@ SWIFT_PROTOCOL("_TtP7UserSDK26RemoteNotificationDelegate_")
 
 
 
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UIViewController (SWIFT_EXTENSION(UserSDK))
 - (void)trackScreen;
 @end
 
 @class UIApplication;
 
-SWIFT_CLASS("_TtC7UserSDK7UserSDK")
+SWIFT_CLASS("_TtC7UserSDK7UserSDK") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK : NSObject
 /// Static instance of once initialized SDK
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong, getter=default, setter=setDefault:) UserSDK * _Nullable default_;)
@@ -371,6 +383,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull inAp
 @end
 
 
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 /// Logout user from app/SDK and wipe all the data
 /// <h3>Important:</h3>
@@ -378,8 +391,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull inAp
 - (void)logoutWithCompletion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
 @end
 
+
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
+@interface UserSDK (SWIFT_EXTENSION(UserSDK))
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull userDataDictionary;
+@end
+
 enum EventType : NSInteger;
 
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 /// Send product event
 /// \param productId Product identifier.
@@ -411,11 +431,8 @@ typedef SWIFT_ENUM(NSInteger, EventType, open) {
 };
 
 
-@interface UserSDK (SWIFT_EXTENSION(UserSDK))
-@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull userDataDictionary;
-@end
 
-
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 /// Send default user data (and possibly create new user if not exist)
 - (void)pingWithCompletion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
@@ -433,13 +450,14 @@ typedef SWIFT_ENUM(NSInteger, EventType, open) {
 
 
 
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 - (void)registerForRemoteNotificationsWithOptions:(UNAuthorizationOptions)options notificationDelegate:(id <RemoteNotificationDelegate> _Nullable)notificationDelegate;
 - (void)handleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
 @end
 
 
-
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 - (void)ping;
 - (void)sendEventWithName:(NSString * _Nonnull)name params:(NSDictionary<NSString *, id> * _Nonnull)params;
@@ -771,7 +789,18 @@ SWIFT_PROTOCOL("_TtP7UserSDK13FontResolving_")
 - (UIFont * _Nullable)resolveFontForName:(NSString * _Nonnull)name size:(CGFloat)size SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class NSObject;
+@class UNMutableNotificationContent;
+@class UNNotificationContent;
+
+SWIFT_CLASS("_TtC7UserSDK27NotificationExtensionHelper")
+@interface NotificationExtensionHelper : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NotificationExtensionHelper * _Nonnull shared;)
++ (NotificationExtensionHelper * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (void)fillNotificationContent:(UNMutableNotificationContent * _Nullable)content contentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_PROTOCOL("_TtP7UserSDK26RemoteNotificationDelegate_")
 @protocol RemoteNotificationDelegate
@@ -784,13 +813,14 @@ SWIFT_PROTOCOL("_TtP7UserSDK26RemoteNotificationDelegate_")
 
 
 
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UIViewController (SWIFT_EXTENSION(UserSDK))
 - (void)trackScreen;
 @end
 
 @class UIApplication;
 
-SWIFT_CLASS("_TtC7UserSDK7UserSDK")
+SWIFT_CLASS("_TtC7UserSDK7UserSDK") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK : NSObject
 /// Static instance of once initialized SDK
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong, getter=default, setter=setDefault:) UserSDK * _Nullable default_;)
@@ -831,6 +861,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull inAp
 @end
 
 
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 /// Logout user from app/SDK and wipe all the data
 /// <h3>Important:</h3>
@@ -838,8 +869,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull inAp
 - (void)logoutWithCompletion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
 @end
 
+
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
+@interface UserSDK (SWIFT_EXTENSION(UserSDK))
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull userDataDictionary;
+@end
+
 enum EventType : NSInteger;
 
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 /// Send product event
 /// \param productId Product identifier.
@@ -871,11 +909,8 @@ typedef SWIFT_ENUM(NSInteger, EventType, open) {
 };
 
 
-@interface UserSDK (SWIFT_EXTENSION(UserSDK))
-@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull userDataDictionary;
-@end
 
-
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 /// Send default user data (and possibly create new user if not exist)
 - (void)pingWithCompletion:(void (^ _Nullable)(BOOL, NSError * _Nullable))completion;
@@ -893,13 +928,14 @@ typedef SWIFT_ENUM(NSInteger, EventType, open) {
 
 
 
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 - (void)registerForRemoteNotificationsWithOptions:(UNAuthorizationOptions)options notificationDelegate:(id <RemoteNotificationDelegate> _Nullable)notificationDelegate;
 - (void)handleNotificationWithUserInfo:(NSDictionary * _Nonnull)userInfo;
 @end
 
 
-
+SWIFT_AVAILABILITY(ios_app_extension,unavailable)
 @interface UserSDK (SWIFT_EXTENSION(UserSDK))
 - (void)ping;
 - (void)sendEventWithName:(NSString * _Nonnull)name params:(NSDictionary<NSString *, id> * _Nonnull)params;
