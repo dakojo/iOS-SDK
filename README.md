@@ -50,6 +50,9 @@ Where FontResolver is a type conforming to FontResoving. As always keep in mind 
 
 ## Changelog
 
+### 0.7.1
+Add image support to notifications
+
 ### 0.7.0
 Bump compiler version
 
