@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
     
     spec.dependency 'FirebaseCore'
     spec.dependency 'FirebaseMessaging'
-    spec.dependency 'Gifu'
+    spec.dependency 'Gifu', '3.3.1'
 
     spec.user_target_xcconfig   = { "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES" => "YES" }
 end
