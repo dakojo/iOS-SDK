@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
             name: "UserSDK",
             url: "https://github.com/dakojo/iOS-SDK/releases/download/0.7.3/UserSDK.xcframework.zip",
-            chceksum: "29ed5e2af0d1267da37f539cf108f02005acb5659263994949e7552c6d643913"
+            checksum: "29ed5e2af0d1267da37f539cf108f02005acb5659263994949e7552c6d643913"
         )
     ]
 )
