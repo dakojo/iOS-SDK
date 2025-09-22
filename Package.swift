@@ -31,8 +31,7 @@ let package = Package(
                 .product(name: "FirebaseCode", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                 .product(name: "Gifu", package: "Gifu")
-            ],
-            path: "Sources"
+            ]
         )
     ]
 )
