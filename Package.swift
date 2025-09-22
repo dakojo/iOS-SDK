@@ -28,7 +28,7 @@ let package = Package(
             name: "UserSDKTargets",
             dependencies: [
                 .target(name: "UserSDKBinary"),
-                .product(name: "FirebaseCode", package: "firebase-ios-sdk"),
+                .product(name: "FirebaseCore", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                 .product(name: "Gifu", package: "Gifu")
             ]
